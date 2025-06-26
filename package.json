@@ -1,0 +1,37 @@
+{
+  "name": "postcss-hover-fallback",
+  "version": "1.0.2",
+  "description": "A PostCSS plugin that creates a fallback for @media (hover: hover) by generating standard :hover selectors for ES5 compatibility.",
+  "main": "src/index.js",
+  "exports": {
+    "require": "./src/index.js"
+  },
+  "files": [
+    "src/index.js",
+    "src/index.d.ts",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "postcss",
+    "postcss-plugin",
+    "hover",
+    "fallback",
+    "css",
+    "media-query",
+    "es5"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/stefanhofman/postcss-hover-fallback.git"
+  },
+  "homepage": "https://github.com/stefanhofman/postcss-hover-fallback#readme",
+  "peerDependencies": {
+    "postcss": "^8.0.0"
+  },
+  "engines": {
+    "node": ">=16.0.0",
+    "bun": ">=1.0.0"
+  }
+}
