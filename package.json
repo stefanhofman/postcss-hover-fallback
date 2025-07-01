@@ -1,6 +1,6 @@
 {
   "name": "postcss-hover-fallback",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A PostCSS plugin that creates a fallback for @media (hover: hover) by generating standard :hover selectors for ES5 compatibility.",
   "main": "src/index.js",
   "exports": {

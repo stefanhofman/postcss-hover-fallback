@@ -1,4 +1,3 @@
-postcss-hover-fallback/README.md
 # postcss-hover-fallback
 
 [![npm version](https://badge.fury.io/js/postcss-hover-fallback.svg)](https://badge.fury.io/js/postcss-hover-fallback)
@@ -55,7 +54,7 @@ module.exports = {
 
 ## Options
 
-- `preserveOriginal` (default: `false`):  
+- `preserveOriginal` (default: `false`):
   If set to `true`, the original `@media (hover: hover)` block will be preserved alongside the fallback.
 
 ## License
